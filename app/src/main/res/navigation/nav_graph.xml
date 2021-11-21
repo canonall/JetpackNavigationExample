@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.canonal.jetpacknavigation.fragment.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_flowStepOneFragment"
+            app:destination="@+id/flowStepOneFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowStepOneFragment"
+        android:name="com.canonal.jetpacknavigation.fragment.FlowStepOneFragment"
+        android:label="FlowStepOneFragment"
+        tools:layout="@layout/fragment_flow_step_one">
+        <action
+            android:id="@+id/action_flowStepOneFragment_to_flowStepTwoFragment"
+            app:destination="@id/flowStepTwoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/flowStepTwoFragment"
+        android:name="com.canonal.jetpacknavigation.fragment.FlowStepTwoFragment"
+        android:label="FlowStepTwoFragment"
+        tools:layout="@layout/fragment_flow_step_two" >
+
+        <action
+            android:id="@+id/action_flowStepTwoFragment_to_homeFragment"
+            app:popUpTo="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.canonal.jetpacknavigation.fragment.SettingsFragment"
+        android:label="SettingsFragment"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>
