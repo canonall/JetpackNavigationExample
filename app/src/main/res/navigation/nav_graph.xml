@@ -22,6 +22,10 @@
         android:name="com.canonal.jetpacknavigation.fragment.FlowStepOneFragment"
         android:label="FlowStepOneFragment"
         tools:layout="@layout/fragment_flow_step_one">
+        <argument
+            android:name="number"
+            android:defaultValue="1"
+            app:argType="integer" />
         <action
             android:id="@+id/action_flowStepOneFragment_to_flowStepTwoFragment"
             app:destination="@id/flowStepTwoFragment" />
@@ -31,7 +35,12 @@
         android:id="@+id/flowStepTwoFragment"
         android:name="com.canonal.jetpacknavigation.fragment.FlowStepTwoFragment"
         android:label="FlowStepTwoFragment"
-        tools:layout="@layout/fragment_flow_step_two" >
+        tools:layout="@layout/fragment_flow_step_two">
+
+        <argument
+            android:name="number"
+            android:defaultValue="2"
+            app:argType="integer" />
 
         <action
             android:id="@+id/action_flowStepTwoFragment_to_homeFragment"
@@ -43,5 +52,11 @@
         android:name="com.canonal.jetpacknavigation.fragment.SettingsFragment"
         android:label="SettingsFragment"
         tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/deepLinkFragment"
+        android:name="com.canonal.jetpacknavigation.fragment.DeepLinkFragment"
+        tools:layout="@layout/fragment_deep_link"
+        android:label="DeepLinkFragment" />
 
 </navigation>

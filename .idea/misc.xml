@@ -3,12 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Acer/Desktop/KeKod/Anroid/JetpackNavigation/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Acer/Desktop/KeKod/Anroid/JetpackNavigation/app/src/main/res/drawable/ic_home.xml" value="0.3828125" />
+        <entry key="..\:/Users/Acer/Desktop/KeKod/Anroid/JetpackNavigation/app/src/main/res/drawable/ic_settings.xml" value="0.3828125" />
+        <entry key="..\:/Users/Acer/Desktop/KeKod/Anroid/JetpackNavigation/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Acer/Desktop/KeKod/Anroid/JetpackNavigation/app/src/main/res/layout/fragment_deep_link.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Acer/Desktop/KeKod/Anroid/JetpackNavigation/app/src/main/res/layout/fragment_flow_step.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Acer/Desktop/KeKod/Anroid/JetpackNavigation/app/src/main/res/layout/fragment_flow_step_one.xml" value="0.27853260869565216" />
         <entry key="..\:/Users/Acer/Desktop/KeKod/Anroid/JetpackNavigation/app/src/main/res/layout/fragment_flow_step_two.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Acer/Desktop/KeKod/Anroid/JetpackNavigation/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Acer/Desktop/KeKod/Anroid/JetpackNavigation/app/src/main/res/layout/fragment_settings.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Acer/Desktop/KeKod/Anroid/JetpackNavigation/app/src/main/res/menu/menu_bottom_nav.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Acer/Desktop/KeKod/Anroid/JetpackNavigation/app/src/main/res/menu/menu_nav_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Acer/Desktop/KeKod/Anroid/JetpackNavigation/app/src/main/res/menu/menu_overflow.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

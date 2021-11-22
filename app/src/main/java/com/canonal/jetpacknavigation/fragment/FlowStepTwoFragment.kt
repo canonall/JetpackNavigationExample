@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import androidx.navigation.fragment.navArgs
 import com.canonal.jetpacknavigation.R
 import com.canonal.jetpacknavigation.databinding.FragmentFlowStepTwoBinding
 
@@ -31,6 +32,10 @@ class FlowStepTwoFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
+        val safeArgs: FlowStepOneFragmentArgs by navArgs()
+        val number = safeArgs.number
+
+        binding.tvName.text = number.toString()
 
         binding.btnNext.setOnClickListener {
             findNavController().navigate(
