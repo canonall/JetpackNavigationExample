@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.navOptions
 import com.canonal.jetpacknavigation.R
@@ -52,9 +53,9 @@ class HomeFragment : Fragment() {
                 null,
                 navOptions
             )
-            //should also work but it doesn't
-            //Navigation.createNavigateOnClickListener(R.id.action_homeFragment_to_flowStepOneFragment)
+
         }
+       // binding.btnNavigateAction.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_homeFragment_to_flowStepOneFragment,null))
 
     }
 

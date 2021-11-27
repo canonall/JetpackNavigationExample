@@ -25,7 +25,7 @@ class FlowStepTwoFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentFlowStepTwoBinding.inflate(inflater, container, false)
         return binding.root
     }

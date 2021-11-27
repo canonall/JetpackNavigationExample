@@ -5,6 +5,10 @@
             android:id="@+id/homeFragment"
             android:icon="@drawable/ic_home"
             android:title="@string/home" />
+        <item
+            android:id="@+id/deepLinkFragment"
+            android:icon="@drawable/ic_android"
+            android:title="@string/deeplink"/>
     </group>
 
 </menu>
