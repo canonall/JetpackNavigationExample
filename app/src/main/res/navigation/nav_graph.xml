@@ -57,6 +57,9 @@
         android:id="@+id/deepLinkFragment"
         android:name="com.canonal.jetpacknavigation.fragment.DeepLinkFragment"
         tools:layout="@layout/fragment_deep_link"
-        android:label="DeepLinkFragment" />
+        android:label="DeepLinkFragment">
+
+        <deepLink app:uri="www.example.com/{myKey}"/>
+    </fragment>
 
 </navigation>

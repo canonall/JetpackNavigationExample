@@ -14,18 +14,19 @@
         tools:context="com.example.android.codelabs.navigation.DeepLinkFragment">
 
         <TextView
-            android:id="@+id/text"
+            android:id="@+id/tvText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light" />
 
         <EditText
-            android:id="@+id/args_edit_text"
+            android:id="@+id/etText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/deep_link_instructions" />
 
         <Button
-            android:id="@+id/send_notification_button"
+            android:id="@+id/btnSendNotification"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/send_deep_link_notification_button" />
